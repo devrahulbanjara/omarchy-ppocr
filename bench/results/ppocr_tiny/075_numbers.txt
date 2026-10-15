@@ -1,0 +1,8 @@
+Invoice No. INV-2025-34008
+Date: 25/06/2022
+Amount due: $1,861.06
+Phone: +1 (482) 253-5801
+IBAN: DE85 5844 71485219 1727 19
+Version 7.3.98 (build 21244)
+Order total: 72 items, 8.33 kg
+Tracking: 1ZF5M5x860J8DLJ8VE

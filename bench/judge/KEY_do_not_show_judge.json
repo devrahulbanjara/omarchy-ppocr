@@ -1,0 +1,402 @@
+{
+ "001_terminal": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "002_terminal": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "003_terminal": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "004_terminal": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "005_terminal": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "006_terminal": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "007_terminal": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "008_terminal": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "009_terminal": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "010_terminal": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "011_code": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "012_code": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "013_code": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "014_code": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "015_code": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "016_code": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "017_code": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "018_code": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "019_code": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "020_code": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "021_prose": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "022_prose": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "023_prose": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "024_prose": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "025_prose": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "026_prose": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "027_prose": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "028_prose": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "029_ui": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "030_ui": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "031_ui": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "032_ui": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "033_ui": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "034_ui": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "035_ui": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "036_ui": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "037_ui": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "038_ui": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "039_small_text": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "040_small_text": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "041_small_text": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "042_small_text": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "043_small_text": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "044_small_text": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "045_small_text": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "046_small_text": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "047_low_contrast": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "048_low_contrast": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "049_low_contrast": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "050_low_contrast": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "051_low_contrast": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "052_low_contrast": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "053_low_contrast": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "054_low_contrast": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "055_table": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "056_table": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "057_table": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "058_table": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "059_table": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "060_table": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "061_table": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "062_table": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "063_identifiers": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "064_identifiers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "065_identifiers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "066_identifiers": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "067_identifiers": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "068_identifiers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "069_identifiers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "070_identifiers": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "071_identifiers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "072_identifiers": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "073_numbers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "074_numbers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "075_numbers": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "076_numbers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "077_numbers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "078_numbers": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "079_numbers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "080_numbers": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "081_accented": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "082_accented": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "083_accented": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "084_accented": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "085_accented": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "086_accented": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "087_accented": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "088_accented": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "089_mixed_styles": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "090_mixed_styles": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "091_mixed_styles": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "092_mixed_styles": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "093_mixed_styles": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "094_mixed_styles": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "095_mixed_styles": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "096_mixed_styles": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "097_mixed_styles": {
+  "A": "tesseract",
+  "B": "ppocr"
+ },
+ "098_mixed_styles": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "099_mixed_styles": {
+  "A": "ppocr",
+  "B": "tesseract"
+ },
+ "100_mixed_styles": {
+  "A": "ppocr",
+  "B": "tesseract"
+ }
+}

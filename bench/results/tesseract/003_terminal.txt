@@ -1,0 +1,7 @@
+error[E0382]: borrow of moved value: “config’
+--> src/main.rs:14:20
+|
+12 |    let handle = spawn(config);
+|                   ------ value moved here
+14 |    println! ("{:?}", config);
+|                  ANAAAA value borrowed here after move

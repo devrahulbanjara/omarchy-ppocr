@@ -1,0 +1,5 @@
+S systemctl status bluetooth
+ bluetooth.service - Bluetooth service
+     Loaded: loaded (/usr/lib/systemd/system/bluetooth.service; enabled)
+     Active: active (running) since Tue 2024-10-15 08:41:02 CEST; 2h ago
+   Main PID: 812 (bluetoothd)

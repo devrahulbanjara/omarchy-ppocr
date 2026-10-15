@@ -1,0 +1,7 @@
+/home/user/.config/river/cloud_10.toml
+API_KEY=demo-f2cc61bX96Qd5Z98Y050b917
+Server: 196.177.144.207:8080
+https://github.com/river-cloud/omega-5/pull/3916
+UUID: a845c12e-5895-5392-9587-bfe0796a38a0
+river.cloud69@example.com
+https://www.cloud-river.org/docs/v4/getting-started?ref=nav#install

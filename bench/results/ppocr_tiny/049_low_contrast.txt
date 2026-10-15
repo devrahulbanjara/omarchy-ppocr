@@ -1,0 +1,3 @@
+He paid $42.50 for the cable, which was twice what it cost last year.
+Good error messages explain what happened, why, and what to do next.
+Our support team replies within 24 hours, including weekends and holidays

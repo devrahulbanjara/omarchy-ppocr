@@ -1,0 +1,5 @@
+fn main() {
+    let nums: Vec<i32> = (1..=10).collect();
+    let sum: i32 = nums.iter().filter(l&x| x % 2 == 0).sum();
+    println!("sum of evens = {}", sum);
+}

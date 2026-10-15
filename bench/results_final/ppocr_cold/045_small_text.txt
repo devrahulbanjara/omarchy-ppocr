@@ -1,0 +1,4 @@
+Most performance problems come from doing work that never needed to happen.
+The museum's new wing displays maps drawn between 1650 and 1720.
+She opened the terminal, typed a single command, and the build finally passed.
+Do not store passwords in plain text; use a password manager instead.

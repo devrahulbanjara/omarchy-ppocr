@@ -1,0 +1,4 @@
+The recipe calls for 250 g of flour, 2 eggs, and a pinch of salt.
+The library closes at 9 PM on weekdays and at noon on Saturdays.
+Readable code is written for the next person, who is usually you.
+Keep your dotfiles in version control so a new machine takes minutes, not days.

@@ -1,0 +1,6 @@
+Package Old              New
+
+linux        6.10.9     6.11.3
+mesa      2423    2424
+hyprland ~~ 0.440 0.44.1
+firefox         130.01 131.0

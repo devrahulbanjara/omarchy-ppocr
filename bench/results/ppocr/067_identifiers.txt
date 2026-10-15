@@ -1,0 +1,6 @@
+https://www.alpha-stone.org/docs/v1/getting-started?ref=nav#install
+Server:181.91.68.217:443
+API_KEY=demo-9478962ZY2916d3Qc1Xc4e15
+https://github.com/stone-alpha/pixel-5/pull/1197
+/home/user/.config/stone/alpha_17.toml
+stone.alpha85@example.com

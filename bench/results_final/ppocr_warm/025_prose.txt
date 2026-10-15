@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog near the riverbank.
+Most performance problems come from doing work that never needed to happen.
+Every keyboard shortcut you learn saves a few seconds a hundred times a day.
+Backups are only useful if you have actually tried restoring from them.
+Compression trades CPU time for smaller files and faster transfers.

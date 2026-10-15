@@ -1,0 +1,3 @@
+The meeting moved to Thursday at 3:30 PM because the projector was broken.
+Backups are only useful if you have actually tried restoring from them.
+Atiling window manager arranges windows so that nothing ever overlaps.

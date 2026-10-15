@@ -1,0 +1,5 @@
+Key                  Action
+Super + Return        Terminal
+Super + W            Close window
+Super + Space         Launcher
+Super + Ctrl + Print OCR

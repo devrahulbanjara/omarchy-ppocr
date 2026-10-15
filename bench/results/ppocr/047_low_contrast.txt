@@ -1,0 +1,4 @@
+If the fan is loud, check which process is using the most CPU first.
+Rain is expected through the weekend, with temperatures around 14 degrees.
+Write the test first, watch it fail, then make it pass with the simplest code.
+The archive contains 1,284 photos taken between 2019 and 2024.

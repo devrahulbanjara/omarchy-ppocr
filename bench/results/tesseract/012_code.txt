@@ -1,0 +1,9 @@
+SELECT v.id, u.email, COUNT(o.id) AS orders
+FROM users u
+
+LEFT JOIN orders o ON o.user_id = v.id
+WHERE v.created_at >= '2024-81-01"
+
+GROUP BY v.id, v.email
+
+HAVING COUNT(o0.id) > 3;

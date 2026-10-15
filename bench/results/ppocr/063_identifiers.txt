@@ -1,0 +1,4 @@
+cloud.bravo74@example.com
+Server:80.18.162.9:5432
+/home/user/.config/cloud/bravo_38.toml
+API_KEY=demo-d31047Z0bYfXQ162XaX4aYY8

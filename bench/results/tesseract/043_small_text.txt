@@ -1,0 +1,3 @@
+Most performance problems come from doing work that never needed to happen.
+Keep your doffiles in version control so a new machine takes minutes, not days.
+Her flight, LH 2047, departs from gate B12 at 06:15 tomorrow morning.

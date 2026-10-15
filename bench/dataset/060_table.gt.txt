@@ -1,0 +1,5 @@
+Name Role Location Since
+Alice Moreau Engineer Paris 2019
+Bob Chen Designer Taipei 2021
+Carlos Ruiz Manager Madrid 2017
+Dana Kim Analyst Seoul 2023

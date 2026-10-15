@@ -1,0 +1,5 @@
+Release Notes
+Last synced 10:42
+Rain is expected through the weekend, with temperatures around 14 degrees.
+Keep your dotfiles in version control so a new machine takes minutes, not days.
+Most performance problems come from doing work that never needed to happen.

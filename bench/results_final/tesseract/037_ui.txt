@@ -1,0 +1,7 @@
+Wi-Fi
+HomeNetwork-5G
+Bluetooth
+
+Off
+
+Airplane mode

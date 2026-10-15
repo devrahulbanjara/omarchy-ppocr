@@ -1,0 +1,5 @@
+‘commit 0043b6808c458070902107bda7a6257a33d245a1
+Server: 51.63.105.190:3000
+API_KEY=demo-7Qab97fa212de20X3YbSeYed
+
+UUID: adchi2fa-3fab-17ed-3323-6icea7a02afl

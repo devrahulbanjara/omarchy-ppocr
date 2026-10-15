@@ -1,0 +1,8 @@
+Invoice No. INV-2025-48843
+Date: 07/05/2026
+Amount due: $3,113.17
+Phone: +1 (826) 258-4006
+IBAN: DE57 1995 1353 7461 7995 93
+Version 2.1.79 (build 89565)
+Order total: 91 items, 12.78 kg
+Tracking: 1ZLSNPOWHTC7R58RF3

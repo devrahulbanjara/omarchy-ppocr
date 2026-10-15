@@ -1,0 +1,6 @@
+Getting Started
+Version 3.1 - October 2024
+
+Rain is expected through the weekend, with temperatures around 14 degrees.
+If the fan is loud, check which process is using the most CPU first.
+Wayland compositors handle input, output and window management in one process.

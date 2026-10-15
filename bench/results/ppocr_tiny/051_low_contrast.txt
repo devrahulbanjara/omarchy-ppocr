@@ -1,0 +1,2 @@
+Compression trades CPU time for smaller files and faster transfers.
+Most performance problems come from doing work that never needed to happen.

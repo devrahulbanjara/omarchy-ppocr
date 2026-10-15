@@ -1,0 +1,1545 @@
+[
+ {
+  "id": "001_terminal",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A garbles four numeric values (8.061, 7.061, 4.0G1i, 3.561); B differs only in column spacing."
+ },
+ {
+  "id": "002_terminal",
+  "preferred": "tesseract",
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "missing_text",
+    "extra_space"
+   ]
+  },
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "reason": "A drops both '---' markers on the statistics line, while B only has one stray character ('ttl1=52')."
+ },
+ {
+  "id": "003_terminal",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "wrong_punctuation",
+    "lost_indentation",
+    "extra_space",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 2,
+   "errors": [
+    "missing_text",
+    "lost_indentation"
+   ]
+  },
+  "reason": "B keeps code tokens like println!(\"{:?}\" and the --> indent intact, while A has typographic quotes, an extra space in println! and ANAAAA garbage."
+ },
+ {
+  "id": "004_terminal",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "reason": "A turns the pipe into 'l' and B turns 'jq' into 'jg'; each breaks the command once."
+ },
+ {
+  "id": "005_terminal",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A has 'l' for '1' in the container ID; B is correct apart from spacing."
+ },
+ {
+  "id": "006_terminal",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "missing_text",
+    "char_substitution"
+   ]
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "reason": "A corrupts one hash ('0c7ale9') plus '$' and 'OCR', while B corrupts four commit hashes."
+ },
+ {
+  "id": "007_terminal",
+  "preferred": "tesseract",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "reason": "B turns the pipe into 'I', which breaks the command."
+ },
+ {
+  "id": "008_terminal",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "char_substitution",
+    "lost_indentation"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A garbles every Gi/Mi unit into digits; B differs only in whitespace."
+ },
+ {
+  "id": "009_terminal",
+  "preferred": "tesseract",
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "char_substitution",
+    "missing_text"
+   ]
+  },
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "lost_indentation"
+   ]
+  },
+  "reason": "A turns '$' into 'S' and drops the '*' bullet; B only loses the leading indentation."
+ },
+ {
+  "id": "010_terminal",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "lost_indentation"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "B is exact, while A loses the field indentation."
+ },
+ {
+  "id": "011_code",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "lost_indentation",
+    "wrong_punctuation",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "reason": "B has only json.1oad, while A loses all indentation and corrupts quotes."
+ },
+ {
+  "id": "012_code",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "case"
+   ]
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "char_substitution",
+    "wrong_punctuation"
+   ]
+  },
+  "reason": "A has one case error in the alias; B has many u->v, 81, o0 and quote errors."
+ },
+ {
+  "id": "013_code",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "wrong_punctuation",
+    "lost_indentation",
+    "char_substitution",
+    "missing_text"
+   ]
+  },
+  "reason": "A is exact; B breaks the template literals, loses indentation and turns '};' into 'Yi'."
+ },
+ {
+  "id": "014_code",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "lost_indentation",
+    "char_substitution",
+    "extra_space",
+    "missing_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "B is exact Python, while A loses all indentation and breaks '__init__' and 'self._items'."
+ },
+ {
+  "id": "015_code",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "missing_text",
+    "lost_indentation",
+    "extra_space",
+    "char_substitution"
+   ]
+  },
+  "reason": "A has a single l-for-| error, while B loses indentation, drops a paren and garbles the closing brace."
+ },
+ {
+  "id": "016_code",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "lost_indentation",
+    "char_substitution",
+    "extra_space"
+   ]
+  },
+  "reason": "A only drops the two closing braces; B loses indentation and garbles the braces."
+ },
+ {
+  "id": "017_code",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "lost_indentation",
+    "char_substitution",
+    "extra_space"
+   ]
+  },
+  "reason": "A is exact; B loses all Python indentation and has 'self. items' in place of 'self._items'."
+ },
+ {
+  "id": "018_code",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "lost_indentation",
+    "char_substitution",
+    "extra_space"
+   ]
+  },
+  "reason": "A keeps the code exact and only drops the two closing braces, while B loses indentation and corrupts 'm' and 'fmt.Printf'."
+ },
+ {
+  "id": "019_code",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "missing_space",
+    "lost_indentation",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "B is exact, while A loses indentation, garbles a brace into 'bh' and turns % into the yen sign."
+ },
+ {
+  "id": "020_code",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution",
+    "extra_text"
+   ]
+  },
+  "reason": "A is exact; B has '0.bind' and 'h1l.unbind'."
+ },
+ {
+  "id": "021_prose",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match exactly; A only adds blank lines."
+ },
+ {
+  "id": "022_prose",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are identical to the ground truth apart from blank lines."
+ },
+ {
+  "id": "023_prose",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match the ground truth apart from a blank line."
+ },
+ {
+  "id": "024_prose",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match apart from a blank line."
+ },
+ {
+  "id": "025_prose",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match exactly; A only adds a blank line."
+ },
+ {
+  "id": "026_prose",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "extra_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A adds a stray quote before 'Wayland', while B is exact."
+ },
+ {
+  "id": "027_prose",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are identical to the ground truth."
+ },
+ {
+  "id": "028_prose",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A has the typo 'doffiles'; B is exact."
+ },
+ {
+  "id": "029_ui",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "extra_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A inserts a stray '~~' token; B is exact."
+ },
+ {
+  "id": "030_ui",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "extra_space"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "B matches apart from column spacing, while A adds leading spaces to every line."
+ },
+ {
+  "id": "031_ui",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 1,
+   "errors": [
+    "empty_output"
+   ]
+  },
+  "reason": "B is empty."
+ },
+ {
+  "id": "032_ui",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "extra_text"
+   ]
+  },
+  "reason": "B inserts spurious '|' table separators."
+ },
+ {
+  "id": "033_ui",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are identical in content; B only has wider spacing."
+ },
+ {
+  "id": "034_ui",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match and differ only in the spacing between items."
+ },
+ {
+  "id": "035_ui",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both differ only in column whitespace."
+ },
+ {
+  "id": "036_ui",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are correct apart from whitespace."
+ },
+ {
+  "id": "037_ui",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A drops the 'Connected' line; B is complete."
+ },
+ {
+  "id": "038_ui",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 1,
+   "errors": [
+    "empty_output"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A is empty, while B is correct."
+ },
+ {
+  "id": "039_small_text",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "case",
+    "char_substitution"
+   ]
+  },
+  "reason": "B has 'Library' and a copyright sign in place of the number 9."
+ },
+ {
+  "id": "040_small_text",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A has 'fist' instead of 'first'."
+ },
+ {
+  "id": "041_small_text",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match exactly; A only adds blank lines."
+ },
+ {
+  "id": "042_small_text",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are exact apart from a blank line."
+ },
+ {
+  "id": "043_small_text",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A has the typo 'doffiles'."
+ },
+ {
+  "id": "044_small_text",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "extra_text"
+   ]
+  },
+  "reason": "B adds a stray leading quote before 'The'."
+ },
+ {
+  "id": "045_small_text",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "extra_text",
+    "wrong_punctuation"
+   ]
+  },
+  "reason": "A is exact; B adds a stray opening quote and drops a comma and the final period."
+ },
+ {
+  "id": "046_small_text",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 1,
+   "errors": [
+    "char_substitution",
+    "missing_text",
+    "extra_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A is heavily garbled on every line, while B is exact."
+ },
+ {
+  "id": "047_low_contrast",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match apart from a blank line."
+ },
+ {
+  "id": "048_low_contrast",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "char_substitution",
+    "missing_text"
+   ]
+  },
+  "reason": "B has 'dofies' instead of 'dotfiles'."
+ },
+ {
+  "id": "049_low_contrast",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match the ground truth exactly."
+ },
+ {
+  "id": "050_low_contrast",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are exact."
+ },
+ {
+  "id": "051_low_contrast",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are identical to the ground truth."
+ },
+ {
+  "id": "052_low_contrast",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match apart from blank lines."
+ },
+ {
+  "id": "053_low_contrast",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match exactly; A only adds blank lines."
+ },
+ {
+  "id": "054_low_contrast",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "missing_space"
+   ]
+  },
+  "reason": "B merges 'A tiling' into 'Atiling', while A is exact."
+ },
+ {
+  "id": "055_table",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Every value is correct in both; they differ only in column spacing."
+ },
+ {
+  "id": "056_table",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are correct apart from column whitespace."
+ },
+ {
+  "id": "057_table",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "reason": "A reads Lyon's platform '3' as 'El', which is wrong data; B only drops the '-' placeholder."
+ },
+ {
+  "id": "058_table",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match and differ only in column spacing."
+ },
+ {
+  "id": "059_table",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "missing_text",
+    "extra_text",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A drops dots from the version numbers (2423, 0.440, 130.01) and adds '~~'."
+ },
+ {
+  "id": "060_table",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are correct apart from column whitespace."
+ },
+ {
+  "id": "061_table",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A misreads the headers as 'CPUS' and 'MEN%'; B is exact."
+ },
+ {
+  "id": "062_table",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "reason": "A drops the '-' departure for Paris, while B replaces it with a junk degree sign."
+ },
+ {
+  "id": "063_identifiers",
+  "preferred": "tesseract",
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "missing_space"
+   ]
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A drops the space after Server:, B is exact apart from a blank line."
+ },
+ {
+  "id": "064_identifiers",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "extra_space",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "wrong_punctuation"
+   ]
+  },
+  "reason": "A breaks the URL, email digit and API key; B only has a fullwidth colon."
+ },
+ {
+  "id": "065_identifiers",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "char_substitution",
+    "extra_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A corrupts the commit hash, API key (S for 5) and UUID while B is exact."
+ },
+ {
+  "id": "066_identifiers",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "wrong_punctuation"
+   ]
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "extra_space",
+    "char_substitution"
+   ]
+  },
+  "reason": "A only uses a fullwidth colon; B inserts spaces into URLs/email and substitutes O/l in UUID, key and v1."
+ },
+ {
+  "id": "067_identifiers",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "missing_space"
+   ]
+  },
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "reason": "A only misses a space after Server:; B has l-for-1 errors in the URL (vl) and API key (el5)."
+ },
+ {
+  "id": "068_identifiers",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "case",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "wrong_punctuation"
+   ]
+  },
+  "reason": "A corrupts commit case, API key and UUID; B only has two fullwidth colons."
+ },
+ {
+  "id": "069_identifiers",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "char_substitution",
+    "diacritics"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A has two wrong chars in the API key and an accented e in the email; B is exact."
+ },
+ {
+  "id": "070_identifiers",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "char_substitution",
+    "extra_text",
+    "wrong_punctuation"
+   ]
+  },
+  "reason": "A has only APl_KEY (l for I); B garbles the API key, commit hash, path and UUID."
+ },
+ {
+  "id": "071_identifiers",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "char_substitution",
+    "extra_space"
+   ]
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "missing_space"
+   ]
+  },
+  "reason": "A corrupts UUID, commit, key, path and URLs; B only misses a space after Server:."
+ },
+ {
+  "id": "072_identifiers",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "extra_space",
+    "char_substitution",
+    "extra_text"
+   ]
+  },
+  "reason": "A is exact; B breaks the URL with a space and garbles the commit hash."
+ },
+ {
+  "id": "073_numbers",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match exactly; A only adds blank lines."
+ },
+ {
+  "id": "074_numbers",
+  "preferred": "tesseract",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "missing_space"
+   ]
+  },
+  "reason": "B is missing the space in 'Date:09/11/2025', while A is exact apart from blank lines."
+ },
+ {
+  "id": "075_numbers",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "extra_text"
+   ]
+  },
+  "reason": "B adds a trailing period after 'kg'."
+ },
+ {
+  "id": "076_numbers",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A has O for 0 in the tracking number."
+ },
+ {
+  "id": "077_numbers",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match exactly; A only adds a blank line."
+ },
+ {
+  "id": "078_numbers",
+  "preferred": "tesseract",
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "wrong_punctuation"
+   ]
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A uses a fullwidth colon after 'Date', while B is exact."
+ },
+ {
+  "id": "079_numbers",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "missing_space"
+   ]
+  },
+  "reason": "A has the wrong digit in the invoice number (82845), while B is only missing a space after 'Date:'."
+ },
+ {
+  "id": "080_numbers",
+  "preferred": "tesseract",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 3,
+   "errors": [
+    "wrong_punctuation"
+   ]
+  },
+  "reason": "B uses fullwidth colons and a fullwidth paren on several lines."
+ },
+ {
+  "id": "081_accented",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "diacritics",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A loses or mangles many diacritics (Ca colte, schliefen, Tur); B is exact."
+ },
+ {
+  "id": "082_accented",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "diacritics",
+    "char_substitution"
+   ]
+  },
+  "reason": "A is exact, while B mangles nearly every accented character."
+ },
+ {
+  "id": "083_accented",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "diacritics",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "reason": "A mangles accents on most lines, while B only writes AE for the single letter \u00c6."
+ },
+ {
+  "id": "084_accented",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "diacritics",
+    "char_substitution"
+   ]
+  },
+  "reason": "A only has 'AEble'; B loses many diacritics and has 'Tir' and 'ZEble'."
+ },
+ {
+  "id": "085_accented",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "diacritics",
+    "char_substitution",
+    "wrong_punctuation"
+   ]
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "diacritics"
+   ]
+  },
+  "reason": "A garbles most words ('/Eble', 'GroRe', 'liberschreitet'); B only writes 'AEble' for '\u00c6ble'."
+ },
+ {
+  "id": "086_accented",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "diacritics",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "case"
+   ]
+  },
+  "reason": "B only lowercases '\u00c7a', while A mangles many accents (e.g. 'reuni6n', 'mafiana', 'schlieBen')."
+ },
+ {
+  "id": "087_accented",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "diacritics",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A mangles accents throughout (nifio, Gr\u00e9Be, iiberschreitet), while B is exact."
+ },
+ {
+  "id": "088_accented",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 2,
+   "errors": [
+    "diacritics",
+    "char_substitution"
+   ]
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "char_substitution"
+   ]
+  },
+  "reason": "A garbles diacritics on every line; B only has 'AEble'."
+ },
+ {
+  "id": "089_mixed_styles",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match exactly; B only adds blank lines."
+ },
+ {
+  "id": "090_mixed_styles",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A drops the 'Read time: 4 min' line, while B is exact."
+ },
+ {
+  "id": "091_mixed_styles",
+  "preferred": "tesseract",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 4,
+   "errors": [
+    "missing_space"
+   ]
+  },
+  "reason": "B merges the heading into 'ReleaseNotes'."
+ },
+ {
+  "id": "092_mixed_styles",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match apart from blank lines."
+ },
+ {
+  "id": "093_mixed_styles",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A drops the 'Updated 2 days ago' line; B is complete."
+ },
+ {
+  "id": "094_mixed_styles",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are exact apart from blank lines."
+ },
+ {
+  "id": "095_mixed_styles",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "reason": "B drops the 'Last synced 10:42' line."
+ },
+ {
+  "id": "096_mixed_styles",
+  "preferred": "tie",
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match apart from blank lines."
+ },
+ {
+  "id": "097_mixed_styles",
+  "preferred": "ppocr",
+  "tesseract": {
+   "score": 3,
+   "errors": [
+    "missing_text"
+   ]
+  },
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "A drops the 'Updated 2 days ago' line; B is complete."
+ },
+ {
+  "id": "098_mixed_styles",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both are exact apart from blank lines."
+ },
+ {
+  "id": "099_mixed_styles",
+  "preferred": "tie",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 5,
+   "errors": []
+  },
+  "reason": "Both match apart from blank lines."
+ },
+ {
+  "id": "100_mixed_styles",
+  "preferred": "ppocr",
+  "ppocr": {
+   "score": 5,
+   "errors": []
+  },
+  "tesseract": {
+   "score": 4,
+   "errors": [
+    "extra_text"
+   ]
+  },
+  "reason": "B adds a stray leading quote before 'Wayland'."
+ }
+]

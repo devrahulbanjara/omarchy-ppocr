@@ -1,0 +1,5 @@
+Account Overview
+Updated 2 days ago
+Do not store passwords in plain text; use a password manager instead.
+Every keyboard shortcut you learn saves a few seconds a hundred times a day.
+A tiling window manager arranges windows so that nothing ever overlaps.

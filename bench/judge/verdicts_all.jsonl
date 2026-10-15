@@ -1,0 +1,100 @@
+{"id": "001_terminal", "score_A": 2, "score_B": 5, "errors_A": ["char_substitution"], "errors_B": [], "preferred": "B", "reason": "A garbles four numeric values (8.061, 7.061, 4.0G1i, 3.561); B differs only in column spacing."}
+{"id": "005_terminal", "score_A": 3, "score_B": 5, "errors_A": ["char_substitution"], "errors_B": [], "preferred": "B", "reason": "A has 'l' for '1' in the container ID; B is correct apart from spacing."}
+{"id": "009_terminal", "score_A": 3, "score_B": 4, "errors_A": ["char_substitution", "missing_text"], "errors_B": ["lost_indentation"], "preferred": "B", "reason": "A turns '$' into 'S' and drops the '*' bullet; B only loses the leading indentation."}
+{"id": "013_code", "score_A": 5, "score_B": 2, "errors_A": [], "errors_B": ["wrong_punctuation", "lost_indentation", "char_substitution", "missing_text"], "preferred": "A", "reason": "A is exact; B breaks the template literals, loses indentation and turns '};' into 'Yi'."}
+{"id": "017_code", "score_A": 5, "score_B": 2, "errors_A": [], "errors_B": ["lost_indentation", "char_substitution", "extra_space"], "preferred": "A", "reason": "A is exact; B loses all Python indentation and has 'self. items' in place of 'self._items'."}
+{"id": "021_prose", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match exactly; A only adds blank lines."}
+{"id": "025_prose", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match exactly; A only adds a blank line."}
+{"id": "029_ui", "score_A": 4, "score_B": 5, "errors_A": ["extra_text"], "errors_B": [], "preferred": "B", "reason": "A inserts a stray '~~' token; B is exact."}
+{"id": "033_ui", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are identical in content; B only has wider spacing."}
+{"id": "037_ui", "score_A": 3, "score_B": 5, "errors_A": ["missing_text"], "errors_B": [], "preferred": "B", "reason": "A drops the 'Connected' line; B is complete."}
+{"id": "041_small_text", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match exactly; A only adds blank lines."}
+{"id": "045_small_text", "score_A": 5, "score_B": 3, "errors_A": [], "errors_B": ["extra_text", "wrong_punctuation"], "preferred": "A", "reason": "A is exact; B adds a stray opening quote and drops a comma and the final period."}
+{"id": "049_low_contrast", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match the ground truth exactly."}
+{"id": "053_low_contrast", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match exactly; A only adds blank lines."}
+{"id": "057_table", "score_A": 3, "score_B": 3, "errors_A": ["char_substitution"], "errors_B": ["missing_text"], "preferred": "B", "reason": "A reads Lyon's platform '3' as 'El', which is wrong data; B only drops the '-' placeholder."}
+{"id": "061_table", "score_A": 3, "score_B": 5, "errors_A": ["char_substitution"], "errors_B": [], "preferred": "B", "reason": "A misreads the headers as 'CPUS' and 'MEN%'; B is exact."}
+{"id": "073_numbers", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match exactly; A only adds blank lines."}
+{"id": "077_numbers", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match exactly; A only adds a blank line."}
+{"id": "081_accented", "score_A": 2, "score_B": 5, "errors_A": ["diacritics", "char_substitution"], "errors_B": [], "preferred": "B", "reason": "A loses or mangles many diacritics (Ca colte, schliefen, Tur); B is exact."}
+{"id": "085_accented", "score_A": 2, "score_B": 4, "errors_A": ["diacritics", "char_substitution", "wrong_punctuation"], "errors_B": ["diacritics"], "preferred": "B", "reason": "A garbles most words ('/Eble', 'GroRe', 'liberschreitet'); B only writes 'AEble' for 'Æble'."}
+{"id": "089_mixed_styles", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match exactly; B only adds blank lines."}
+{"id": "093_mixed_styles", "score_A": 3, "score_B": 5, "errors_A": ["missing_text"], "errors_B": [], "preferred": "B", "reason": "A drops the 'Updated 2 days ago' line; B is complete."}
+{"id": "097_mixed_styles", "score_A": 3, "score_B": 5, "errors_A": ["missing_text"], "errors_B": [], "preferred": "B", "reason": "A drops the 'Updated 2 days ago' line; B is complete."}
+{"id": "002_terminal", "score_A": 3, "score_B": 3, "errors_A": ["missing_text", "extra_space"], "errors_B": ["char_substitution"], "preferred": "B", "reason": "A drops both '---' markers on the statistics line, while B only has one stray character ('ttl1=52')."}
+{"id": "006_terminal", "score_A": 3, "score_B": 2, "errors_A": ["missing_text", "char_substitution"], "errors_B": ["char_substitution"], "preferred": "A", "reason": "A corrupts one hash ('0c7ale9') plus '$' and 'OCR', while B corrupts four commit hashes."}
+{"id": "010_terminal", "score_A": 4, "score_B": 5, "errors_A": ["lost_indentation"], "errors_B": [], "preferred": "B", "reason": "B is exact, while A loses the field indentation."}
+{"id": "014_code", "score_A": 2, "score_B": 5, "errors_A": ["lost_indentation", "char_substitution", "extra_space", "missing_text"], "errors_B": [], "preferred": "B", "reason": "B is exact Python, while A loses all indentation and breaks '__init__' and 'self._items'."}
+{"id": "018_code", "score_A": 3, "score_B": 2, "errors_A": ["missing_text"], "errors_B": ["lost_indentation", "char_substitution", "extra_space"], "preferred": "A", "reason": "A keeps the code exact and only drops the two closing braces, while B loses indentation and corrupts 'm' and 'fmt.Printf'."}
+{"id": "022_prose", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are identical to the ground truth apart from blank lines."}
+{"id": "026_prose", "score_A": 4, "score_B": 5, "errors_A": ["extra_text"], "errors_B": [], "preferred": "B", "reason": "A adds a stray quote before 'Wayland', while B is exact."}
+{"id": "030_ui", "score_A": 4, "score_B": 5, "errors_A": ["extra_space"], "errors_B": [], "preferred": "B", "reason": "B matches apart from column spacing, while A adds leading spaces to every line."}
+{"id": "034_ui", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match and differ only in the spacing between items."}
+{"id": "038_ui", "score_A": 1, "score_B": 5, "errors_A": ["empty_output"], "errors_B": [], "preferred": "B", "reason": "A is empty, while B is correct."}
+{"id": "042_small_text", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are exact apart from a blank line."}
+{"id": "046_small_text", "score_A": 1, "score_B": 5, "errors_A": ["char_substitution", "missing_text", "extra_text"], "errors_B": [], "preferred": "B", "reason": "A is heavily garbled on every line, while B is exact."}
+{"id": "050_low_contrast", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are exact."}
+{"id": "054_low_contrast", "score_A": 5, "score_B": 4, "errors_A": [], "errors_B": ["missing_space"], "preferred": "A", "reason": "B merges 'A tiling' into 'Atiling', while A is exact."}
+{"id": "058_table", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match and differ only in column spacing."}
+{"id": "062_table", "score_A": 3, "score_B": 3, "errors_A": ["missing_text"], "errors_B": ["char_substitution"], "preferred": "A", "reason": "A drops the '-' departure for Paris, while B replaces it with a junk degree sign."}
+{"id": "074_numbers", "score_A": 5, "score_B": 4, "errors_A": [], "errors_B": ["missing_space"], "preferred": "A", "reason": "B is missing the space in 'Date:09/11/2025', while A is exact apart from blank lines."}
+{"id": "078_numbers", "score_A": 4, "score_B": 5, "errors_A": ["wrong_punctuation"], "errors_B": [], "preferred": "B", "reason": "A uses a fullwidth colon after 'Date', while B is exact."}
+{"id": "082_accented", "score_A": 5, "score_B": 2, "errors_A": [], "errors_B": ["diacritics", "char_substitution"], "preferred": "A", "reason": "A is exact, while B mangles nearly every accented character."}
+{"id": "086_accented", "score_A": 2, "score_B": 4, "errors_A": ["diacritics", "char_substitution"], "errors_B": ["case"], "preferred": "B", "reason": "B only lowercases 'Ça', while A mangles many accents (e.g. 'reuni6n', 'mafiana', 'schlieBen')."}
+{"id": "090_mixed_styles", "score_A": 3, "score_B": 5, "errors_A": ["missing_text"], "errors_B": [], "preferred": "B", "reason": "A drops the 'Read time: 4 min' line, while B is exact."}
+{"id": "094_mixed_styles", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are exact apart from blank lines."}
+{"id": "098_mixed_styles", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are exact apart from blank lines."}
+{"id": "003_terminal", "score_A": 2, "score_B": 2, "errors_A": ["wrong_punctuation", "lost_indentation", "extra_space", "char_substitution"], "errors_B": ["missing_text", "lost_indentation"], "preferred": "B", "reason": "B keeps code tokens like println!(\"{:?}\" and the --> indent intact, while A has typographic quotes, an extra space in println! and ANAAAA garbage."}
+{"id": "007_terminal", "score_A": 5, "score_B": 3, "errors_A": [], "errors_B": ["char_substitution"], "preferred": "A", "reason": "B turns the pipe into 'I', which breaks the command."}
+{"id": "011_code", "score_A": 2, "score_B": 3, "errors_A": ["lost_indentation", "wrong_punctuation", "char_substitution"], "errors_B": ["char_substitution"], "preferred": "B", "reason": "B has only json.1oad, while A loses all indentation and corrupts quotes."}
+{"id": "015_code", "score_A": 3, "score_B": 2, "errors_A": ["char_substitution"], "errors_B": ["missing_text", "lost_indentation", "extra_space", "char_substitution"], "preferred": "A", "reason": "A has a single l-for-| error, while B loses indentation, drops a paren and garbles the closing brace."}
+{"id": "019_code", "score_A": 2, "score_B": 5, "errors_A": ["missing_space", "lost_indentation", "char_substitution"], "errors_B": [], "preferred": "B", "reason": "B is exact, while A loses indentation, garbles a brace into 'bh' and turns % into the yen sign."}
+{"id": "023_prose", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match the ground truth apart from a blank line."}
+{"id": "027_prose", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are identical to the ground truth."}
+{"id": "031_ui", "score_A": 5, "score_B": 1, "errors_A": [], "errors_B": ["empty_output"], "preferred": "A", "reason": "B is empty."}
+{"id": "035_ui", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both differ only in column whitespace."}
+{"id": "039_small_text", "score_A": 5, "score_B": 3, "errors_A": [], "errors_B": ["case", "char_substitution"], "preferred": "A", "reason": "B has 'Library' and a copyright sign in place of the number 9."}
+{"id": "043_small_text", "score_A": 4, "score_B": 5, "errors_A": ["char_substitution"], "errors_B": [], "preferred": "B", "reason": "A has the typo 'doffiles'."}
+{"id": "047_low_contrast", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match apart from a blank line."}
+{"id": "051_low_contrast", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are identical to the ground truth."}
+{"id": "055_table", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Every value is correct in both; they differ only in column spacing."}
+{"id": "059_table", "score_A": 2, "score_B": 5, "errors_A": ["missing_text", "extra_text", "char_substitution"], "errors_B": [], "preferred": "B", "reason": "A drops dots from the version numbers (2423, 0.440, 130.01) and adds '~~'."}
+{"id": "075_numbers", "score_A": 5, "score_B": 4, "errors_A": [], "errors_B": ["extra_text"], "preferred": "A", "reason": "B adds a trailing period after 'kg'."}
+{"id": "079_numbers", "score_A": 3, "score_B": 4, "errors_A": ["char_substitution"], "errors_B": ["missing_space"], "preferred": "B", "reason": "A has the wrong digit in the invoice number (82845), while B is only missing a space after 'Date:'."}
+{"id": "083_accented", "score_A": 2, "score_B": 4, "errors_A": ["diacritics", "char_substitution"], "errors_B": ["char_substitution"], "preferred": "B", "reason": "A mangles accents on most lines, while B only writes AE for the single letter Æ."}
+{"id": "087_accented", "score_A": 2, "score_B": 5, "errors_A": ["diacritics", "char_substitution"], "errors_B": [], "preferred": "B", "reason": "A mangles accents throughout (nifio, GréBe, iiberschreitet), while B is exact."}
+{"id": "091_mixed_styles", "score_A": 5, "score_B": 4, "errors_A": [], "errors_B": ["missing_space"], "preferred": "A", "reason": "B merges the heading into 'ReleaseNotes'."}
+{"id": "095_mixed_styles", "score_A": 5, "score_B": 3, "errors_A": [], "errors_B": ["missing_text"], "preferred": "A", "reason": "B drops the 'Last synced 10:42' line."}
+{"id": "099_mixed_styles", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match apart from blank lines."}
+{"id": "004_terminal", "score_A": 3, "score_B": 3, "errors_A": ["char_substitution"], "errors_B": ["char_substitution"], "preferred": "tie", "reason": "A turns the pipe into 'l' and B turns 'jq' into 'jg'; each breaks the command once."}
+{"id": "008_terminal", "score_A": 2, "score_B": 5, "errors_A": ["char_substitution", "lost_indentation"], "errors_B": [], "preferred": "B", "reason": "A garbles every Gi/Mi unit into digits; B differs only in whitespace."}
+{"id": "012_code", "score_A": 4, "score_B": 2, "errors_A": ["case"], "errors_B": ["char_substitution", "wrong_punctuation"], "preferred": "A", "reason": "A has one case error in the alias; B has many u->v, 81, o0 and quote errors."}
+{"id": "016_code", "score_A": 3, "score_B": 2, "errors_A": ["missing_text"], "errors_B": ["lost_indentation", "char_substitution", "extra_space"], "preferred": "A", "reason": "A only drops the two closing braces; B loses indentation and garbles the braces."}
+{"id": "020_code", "score_A": 5, "score_B": 3, "errors_A": [], "errors_B": ["char_substitution", "extra_text"], "preferred": "A", "reason": "A is exact; B has '0.bind' and 'h1l.unbind'."}
+{"id": "024_prose", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match apart from a blank line."}
+{"id": "028_prose", "score_A": 4, "score_B": 5, "errors_A": ["char_substitution"], "errors_B": [], "preferred": "B", "reason": "A has the typo 'doffiles'; B is exact."}
+{"id": "032_ui", "score_A": 5, "score_B": 3, "errors_A": [], "errors_B": ["extra_text"], "preferred": "A", "reason": "B inserts spurious '|' table separators."}
+{"id": "036_ui", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are correct apart from whitespace."}
+{"id": "040_small_text", "score_A": 4, "score_B": 5, "errors_A": ["missing_text"], "errors_B": [], "preferred": "B", "reason": "A has 'fist' instead of 'first'."}
+{"id": "044_small_text", "score_A": 5, "score_B": 4, "errors_A": [], "errors_B": ["extra_text"], "preferred": "A", "reason": "B adds a stray leading quote before 'The'."}
+{"id": "048_low_contrast", "score_A": 5, "score_B": 4, "errors_A": [], "errors_B": ["char_substitution", "missing_text"], "preferred": "A", "reason": "B has 'dofies' instead of 'dotfiles'."}
+{"id": "052_low_contrast", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match apart from blank lines."}
+{"id": "056_table", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are correct apart from column whitespace."}
+{"id": "060_table", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both are correct apart from column whitespace."}
+{"id": "076_numbers", "score_A": 3, "score_B": 5, "errors_A": ["char_substitution"], "errors_B": [], "preferred": "B", "reason": "A has O for 0 in the tracking number."}
+{"id": "080_numbers", "score_A": 5, "score_B": 3, "errors_A": [], "errors_B": ["wrong_punctuation"], "preferred": "A", "reason": "B uses fullwidth colons and a fullwidth paren on several lines."}
+{"id": "084_accented", "score_A": 4, "score_B": 2, "errors_A": ["char_substitution"], "errors_B": ["diacritics", "char_substitution"], "preferred": "A", "reason": "A only has 'AEble'; B loses many diacritics and has 'Tir' and 'ZEble'."}
+{"id": "088_accented", "score_A": 2, "score_B": 4, "errors_A": ["diacritics", "char_substitution"], "errors_B": ["char_substitution"], "preferred": "B", "reason": "A garbles diacritics on every line; B only has 'AEble'."}
+{"id": "092_mixed_styles", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match apart from blank lines."}
+{"id": "096_mixed_styles", "score_A": 5, "score_B": 5, "errors_A": [], "errors_B": [], "preferred": "tie", "reason": "Both match apart from blank lines."}
+{"id": "100_mixed_styles", "score_A": 5, "score_B": 4, "errors_A": [], "errors_B": ["extra_text"], "preferred": "A", "reason": "B adds a stray leading quote before 'Wayland'."}
+{"id": "065_identifiers", "score_A": 2, "score_B": 5, "errors_A": ["char_substitution", "extra_text"], "errors_B": [], "preferred": "B", "reason": "A corrupts the commit hash, API key (S for 5) and UUID while B is exact."}
+{"id": "069_identifiers", "score_A": 2, "score_B": 5, "errors_A": ["char_substitution", "diacritics"], "errors_B": [], "preferred": "B", "reason": "A has two wrong chars in the API key and an accented e in the email; B is exact."}
+{"id": "066_identifiers", "score_A": 4, "score_B": 2, "errors_A": ["wrong_punctuation"], "errors_B": ["extra_space", "char_substitution"], "preferred": "A", "reason": "A only uses a fullwidth colon; B inserts spaces into URLs/email and substitutes O/l in UUID, key and v1."}
+{"id": "070_identifiers", "score_A": 3, "score_B": 2, "errors_A": ["char_substitution"], "errors_B": ["char_substitution", "extra_text", "wrong_punctuation"], "preferred": "A", "reason": "A has only APl_KEY (l for I); B garbles the API key, commit hash, path and UUID."}
+{"id": "063_identifiers", "score_A": 4, "score_B": 5, "errors_A": ["missing_space"], "errors_B": [], "preferred": "B", "reason": "A drops the space after Server:, B is exact apart from a blank line."}
+{"id": "067_identifiers", "score_A": 4, "score_B": 3, "errors_A": ["missing_space"], "errors_B": ["char_substitution"], "preferred": "A", "reason": "A only misses a space after Server:; B has l-for-1 errors in the URL (vl) and API key (el5)."}
+{"id": "071_identifiers", "score_A": 2, "score_B": 4, "errors_A": ["char_substitution", "extra_space"], "errors_B": ["missing_space"], "preferred": "B", "reason": "A corrupts UUID, commit, key, path and URLs; B only misses a space after Server:."}
+{"id": "064_identifiers", "score_A": 2, "score_B": 4, "errors_A": ["extra_space", "char_substitution"], "errors_B": ["wrong_punctuation"], "preferred": "B", "reason": "A breaks the URL, email digit and API key; B only has a fullwidth colon."}
+{"id": "068_identifiers", "score_A": 2, "score_B": 4, "errors_A": ["case", "char_substitution"], "errors_B": ["wrong_punctuation"], "preferred": "B", "reason": "A corrupts commit case, API key and UUID; B only has two fullwidth colons."}
+{"id": "072_identifiers", "score_A": 5, "score_B": 2, "errors_A": [], "errors_B": ["extra_space", "char_substitution", "extra_text"], "preferred": "A", "reason": "A is exact; B breaks the URL with a space and garbles the commit hash."}

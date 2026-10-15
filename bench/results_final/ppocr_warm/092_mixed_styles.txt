@@ -1,0 +1,5 @@
+Weekly Summary
+Read time: 4 min
+Write the test first, watch it fail, then make it pass with the simplest code.
+If the fan is loud, check which process is using the most CPU first.
+He paid $42.50 for the cable, which was twice what it cost last year.

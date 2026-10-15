@@ -1,0 +1,6 @@
+def parse_config(path: str) -> dict:
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    if "version" not in data:
+        raise ValueError(f"missing version in {path}")
+    return {k: v for k, v in data.items() if v is not None}

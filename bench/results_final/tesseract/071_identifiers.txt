@@ -1,0 +1,12 @@
+Server: 157.232.235.68:8080
+
+UUID: fe@8eda2-b3£2-13bb-8b18-54238318e3eb
+
+commit 1d1471ea13c467001£0d62ae13c4a57a5a9aadd3
+API_KEY=demo-QcYZ90bX1a016QY8Y04alXa8
+
+/home /usex/.config/alpha/Tiver_22.toml
+
+https: //github.com/alpha-river/stone-4/pull/8385
+
+https: //www. river-alpha.oxrg/docs/v2/getting-started?ref=nav#install

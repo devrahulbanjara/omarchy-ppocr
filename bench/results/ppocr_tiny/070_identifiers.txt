@@ -1,0 +1,6 @@
+Server: 26.35.115.21:22
+API KEY=demo-3Z3ce17aZ428c8173266X8fc
+commit e22c64b2d2d8926fa8cd76eca327835c28fbb543
+/home/user/.config/delta/bravo_45.toml
+UUID:1cdcfa28-af25-6033-888b-f818b0f5334d
+delta.bravo70@example.com

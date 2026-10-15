@@ -1,0 +1,6 @@
+Troubleshooting
+
+The museum's new wing displays maps drawn between 1650 and 1720.
+The recipe calls for 250 g of flour, 2 eggs, and a pinch of salt.
+
+She opened the terminal, typed a single command, and the build finally passed.

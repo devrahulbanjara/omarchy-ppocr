@@ -1,0 +1,7 @@
+Optical character recognition turns pixels back into text you can edit.
+
+Do not store passwords in plain text; use a password manager instead.
+
+Unplug the router, wait thirty seconds, and plug it back in again.
+
+‘Wayland compositors handle input, output and window management in one process.

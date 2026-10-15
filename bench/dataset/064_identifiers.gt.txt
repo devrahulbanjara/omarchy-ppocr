@@ -1,0 +1,5 @@
+https://www.pixel-cloud.org/docs/v4/getting-started?ref=nav#install
+/home/user/.config/cloud/pixel_6.toml
+cloud.pixel90@example.com
+Server: 174.84.7.44:443
+API_KEY=demo-X6f6Ybd57670ZYb5Zfa393Z9

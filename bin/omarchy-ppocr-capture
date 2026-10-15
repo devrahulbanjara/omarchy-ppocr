@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Extract text from a screen region with PP-OCRv6 (CPU, offline) and copy it.
+# Drop-in replacement for omarchy-capture-text: same freeze -> slurp -> grim
+# flow, different OCR engine. Falls back to Tesseract if the engine is missing.
+
+EXTRACT="${OMARCHY_PPOCR_EXTRACT:-$HOME/.local/bin/omarchy-ppocr-extract}"
+
+cleanup_freeze() {
+  [[ -n $PID ]] && kill $PID 2>/dev/null
+}
+trap cleanup_freeze EXIT
+
+hyprpicker -r -z >/dev/null 2>&1 &
+PID=$!
+sleep .1
+SELECTION=$(slurp 2>/dev/null)
+
+[[ -z $SELECTION ]] && exit 0
+
+IMG=$(mktemp --suffix=.png)
+trap 'cleanup_freeze; rm -f "$IMG"' EXIT
+grim -g "$SELECTION" "$IMG" || exit 1
+cleanup_freeze
+PID=
+
+if [[ -x $EXTRACT ]]; then
+  TEXT=$("$EXTRACT" "$IMG" 2>/dev/null)
+else
+  TEXT=$(tesseract "$IMG" stdout --oem 1 --psm 6 -l "${OMARCHY_OCR_LANGS:-eng}" --dpi 300 -c preserve_interword_spaces=1 2>/dev/null)
+fi
+
+if [[ -z $TEXT ]]; then
+  omarchy-notification-send -g 󰴑 "No text found in selection"
+  exit 1
+fi
+
+printf "%s" "$TEXT" | wl-copy
+omarchy-notification-send -g 󰴑 "Copied text from selection to clipboard"

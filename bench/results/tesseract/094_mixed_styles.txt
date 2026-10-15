@@ -1,0 +1,8 @@
+Release Notes
+
+Updated 2 days ago
+
+The meeting moved to Thursday at 3:30 PM because the projector was broken.
+The report covers Q3 revenue, hiring plans, and the new office in Berlin.
+
+Version 2.4.1 fixes the crash that occurred when resuming from suspend.

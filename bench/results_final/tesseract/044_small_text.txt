@@ -1,0 +1,7 @@
+Keep your dotfiles in version control so a new machine takes minutes, not days.
+‘The meeting moved to Thursday at 3:30 PM because the projector was broken.
+The recipe calls for 250 g of flour, 2 eggs, and a pinch of salt.
+
+Write the test first, watch it fail, then make it pass with the simplest code.
+
+Our support team replies within 24 hours, including weekends and holidays.

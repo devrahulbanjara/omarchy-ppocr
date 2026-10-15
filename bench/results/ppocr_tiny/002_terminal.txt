@@ -1,0 +1,6 @@
+$ping -c 3 archlinux.org
+PING archlinux.org (95.217.163.246) 56(84) bytes of data.
+64 bytes from 95.217.163.246: icmp_seq=1 ttl=52 time=38.4 ms
+64 bytes from 95.217.163.246: icmp_seq=2 ttl=52 time=37.9 ms
+    archlinux.org ping statistics -
+  packets transmitted, 3 received, 0% packet loss

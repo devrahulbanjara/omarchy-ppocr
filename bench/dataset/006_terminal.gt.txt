@@ -1,0 +1,6 @@
+$ git log --oneline -5
+a3f9c21 Fix crash when monitor is unplugged
+7b2e0d4 Add keybinding for OCR capture
+e91c5aa Bump version to 3.1.2
+4d8f6b3 Update README with install steps
+0c7a1e9 Initial commit

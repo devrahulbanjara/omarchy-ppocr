@@ -1,0 +1,5 @@
+Every keyboard shortcut you learn saves a few seconds a hundred times a day.
+Backups are only useful if you have actually tried restoring from them.
+Good error messages explain what happened, why, and what to do next.
+Write the test first, watch it fail, then make it pass with the simplest code.
+If the fan is loud, check which process is using the most CPU first.

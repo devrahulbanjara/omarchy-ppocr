@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.devrahulbanjara.ppocr",
+  "name": "PP-OCR",
+  "version": "1.0.0",
+  "author": "Rahul Dev Banjara",
+  "license": "MIT",
+  "description": "Much more accurate screen OCR for Super+Ctrl+Print: PP-OCRv6 on CPU, offline, with a warm model for fast captures",
+  "kinds": ["service"],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}

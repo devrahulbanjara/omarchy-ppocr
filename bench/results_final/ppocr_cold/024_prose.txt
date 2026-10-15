@@ -1,0 +1,5 @@
+Latency matters more than throughput when a person is waiting for the result.
+Good error messages explain what happened, why, and what to do next.
+Compression trades CPU time for smaller files and faster transfers.
+A tiling window manager arranges windows so that nothing ever overlaps.
+The archive contains 1,284 photos taken between 2019 and 2024.

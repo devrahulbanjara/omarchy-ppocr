@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog near the riverbank.
+Wayland compositors handle input, output and window management in one process.
+Optical character recognition turns pixels back into text you can edit.
+Screen readers depend on applications exposing correct accessibility labels.
+The library closes at 9 PM on weekdays and at noon on Saturdays.

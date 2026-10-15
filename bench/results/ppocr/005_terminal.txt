@@ -1,0 +1,4 @@
+$ docker ps
+CONTAINER ID IMAGE          STATUS         PORTS
+5f2a9c1e7b3d postgres:16    Up 2 hours     0.0.0.0:5432->5432/tcp
+b81d04e6a2f9 redis:7-alpine Up 2 hours     6379/tcp

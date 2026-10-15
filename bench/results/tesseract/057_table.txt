@@ -1,0 +1,6 @@
+Station Arrives Departs Platform
+Lyon          08:14        08:19        El
+
+Dijon      09:47      09:52      1A
+
+Paris      11:30      -           12

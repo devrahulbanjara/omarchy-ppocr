@@ -1,0 +1,3 @@
+0.bind("SUPER + CTRL + PRINT", "Extract text (OCR)", "omarchy-capture-text")
+h1l.unbind("SUPER + SHIFT + F")
+o.window("org.gnome.Calculator", { tag = "+floating-window" })

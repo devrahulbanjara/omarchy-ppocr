@@ -1,0 +1,5 @@
+Troubleshooting
+Read time: 4 min
+Unplug the router, wait thirty seconds, and plug it back in again.
+Small, frequent commits make it far easier to find the change that broke things.
+Readable code is written for the next person, who is usually you.

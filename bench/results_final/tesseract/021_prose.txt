@@ -1,0 +1,8 @@
+The archive contains 1,284 photos taken between 2019 and 2024.
+
+Small, frequent commits make it far easier to find the change that broke things.
+Unplug the router, wait thirty seconds, and plug it back in again.
+
+Our support team replies within 24 hours, including weekends and holidays.
+Most performance problems come from doing work that never needed to happen.
+Write the test first, watch it fail, then make it pass with the simplest code.

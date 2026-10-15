@@ -1,0 +1,5 @@
+Her flight, LH 2047, departs from gate B12 at 06:15 tomorrow morning.
+
+Keep your doffiles in version control so a new machine takes minutes, not days.
+She opened the terminal, typed a single command, and the build finally passed.
+Backups are only useful if you have actually tried restoring from them.

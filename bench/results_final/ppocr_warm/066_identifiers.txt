@@ -1,0 +1,7 @@
+https://github.com/omega-lunar/river-7/pull/8579
+omega.lunar43@example.com
+UUID: 94d8dfb0-2470-7c17-5857-8f618aff0cea
+Server:150.15.100.234:3000
+API_KEY=demo-a6e15XZ4aeQ712Y3Z154caYb
+https://www.lunar-omega.org/docs/v1/getting-started?ref=nav#install
+/home/user/.config/omega/lunar_17.toml

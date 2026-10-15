@@ -1,0 +1,7 @@
+Server: 216.71.159.100:22
+commit 21f05184610f9a645403753f2775d2cc664a05b6
+API_KEY=demo-9Y34fQd9a4302c6321Z96Xf8
+UUID: a3f5f54b-ab08-29d2-362d-a2a6e3eca5c7
+/home/user/.config/delta/ember_18.toml
+https://www.ember-delta.org/docs/v2/getting-started?ref=nav#install
+https://github.com/delta-ember/river-8/pull/6660

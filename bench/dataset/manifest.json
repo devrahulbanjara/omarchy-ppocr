@@ -1,0 +1,720 @@
+[
+ {
+  "id": "001_terminal",
+  "category": "terminal",
+  "scale": 2,
+  "font": "Liberation Mono",
+  "size": 14
+ },
+ {
+  "id": "002_terminal",
+  "category": "terminal",
+  "scale": 2,
+  "font": "Adwaita Mono",
+  "size": 14
+ },
+ {
+  "id": "003_terminal",
+  "category": "terminal",
+  "scale": 1.25,
+  "font": "JetBrainsMono Nerd Font",
+  "size": 15
+ },
+ {
+  "id": "004_terminal",
+  "category": "terminal",
+  "scale": 1.25,
+  "font": "JetBrainsMono Nerd Font",
+  "size": 15
+ },
+ {
+  "id": "005_terminal",
+  "category": "terminal",
+  "scale": 1.25,
+  "font": "iA Writer Mono S",
+  "size": 16
+ },
+ {
+  "id": "006_terminal",
+  "category": "terminal",
+  "scale": 1,
+  "font": "iA Writer Mono S",
+  "size": 13
+ },
+ {
+  "id": "007_terminal",
+  "category": "terminal",
+  "scale": 1,
+  "font": "JetBrainsMono Nerd Font",
+  "size": 14
+ },
+ {
+  "id": "008_terminal",
+  "category": "terminal",
+  "scale": 1,
+  "font": "iA Writer Mono S",
+  "size": 15
+ },
+ {
+  "id": "009_terminal",
+  "category": "terminal",
+  "scale": 2,
+  "font": "JetBrainsMono Nerd Font",
+  "size": 15
+ },
+ {
+  "id": "010_terminal",
+  "category": "terminal",
+  "scale": 2,
+  "font": "iA Writer Mono S",
+  "size": 14
+ },
+ {
+  "id": "011_code",
+  "category": "code",
+  "scale": 1.25,
+  "font": "iA Writer Mono S",
+  "size": 14
+ },
+ {
+  "id": "012_code",
+  "category": "code",
+  "scale": 1,
+  "font": "JetBrainsMono Nerd Font",
+  "size": 15
+ },
+ {
+  "id": "013_code",
+  "category": "code",
+  "scale": 1.25,
+  "font": "DejaVu Sans Mono",
+  "size": 14
+ },
+ {
+  "id": "014_code",
+  "category": "code",
+  "scale": 1.5,
+  "font": "Liberation Mono",
+  "size": 15
+ },
+ {
+  "id": "015_code",
+  "category": "code",
+  "scale": 1.25,
+  "font": "JetBrainsMono Nerd Font",
+  "size": 15
+ },
+ {
+  "id": "016_code",
+  "category": "code",
+  "scale": 1.5,
+  "font": "iA Writer Mono S",
+  "size": 14
+ },
+ {
+  "id": "017_code",
+  "category": "code",
+  "scale": 1.25,
+  "font": "iA Writer Mono S",
+  "size": 14
+ },
+ {
+  "id": "018_code",
+  "category": "code",
+  "scale": 1,
+  "font": "Adwaita Mono",
+  "size": 15
+ },
+ {
+  "id": "019_code",
+  "category": "code",
+  "scale": 1,
+  "font": "Liberation Mono",
+  "size": 13
+ },
+ {
+  "id": "020_code",
+  "category": "code",
+  "scale": 2,
+  "font": "Liberation Mono",
+  "size": 14
+ },
+ {
+  "id": "021_prose",
+  "category": "prose",
+  "scale": 1.25,
+  "font": "Nimbus Sans",
+  "size": 15
+ },
+ {
+  "id": "022_prose",
+  "category": "prose",
+  "scale": 1,
+  "font": "C059",
+  "size": 18
+ },
+ {
+  "id": "023_prose",
+  "category": "prose",
+  "scale": 1,
+  "font": "Adwaita Sans",
+  "size": 16
+ },
+ {
+  "id": "024_prose",
+  "category": "prose",
+  "scale": 1.25,
+  "font": "DejaVu Sans",
+  "size": 15
+ },
+ {
+  "id": "025_prose",
+  "category": "prose",
+  "scale": 1.5,
+  "font": "Nimbus Roman",
+  "size": 18
+ },
+ {
+  "id": "026_prose",
+  "category": "prose",
+  "scale": 1.5,
+  "font": "Nimbus Roman",
+  "size": 18
+ },
+ {
+  "id": "027_prose",
+  "category": "prose",
+  "scale": 1,
+  "font": "DejaVu Sans",
+  "size": 15
+ },
+ {
+  "id": "028_prose",
+  "category": "prose",
+  "scale": 1.25,
+  "font": "Liberation Sans",
+  "size": 18
+ },
+ {
+  "id": "029_ui",
+  "category": "ui",
+  "scale": 1.25,
+  "font": "DejaVu Sans",
+  "size": 15,
+  "layout": "bar"
+ },
+ {
+  "id": "030_ui",
+  "category": "ui",
+  "scale": 1.5,
+  "font": "Noto Sans",
+  "size": 13,
+  "layout": "grid"
+ },
+ {
+  "id": "031_ui",
+  "category": "ui",
+  "scale": 1,
+  "font": "Noto Sans",
+  "size": 13,
+  "layout": "grid"
+ },
+ {
+  "id": "032_ui",
+  "category": "ui",
+  "scale": 1.25,
+  "font": "Adwaita Sans",
+  "size": 14,
+  "layout": "grid"
+ },
+ {
+  "id": "033_ui",
+  "category": "ui",
+  "scale": 1,
+  "font": "Liberation Sans",
+  "size": 14,
+  "layout": "bar"
+ },
+ {
+  "id": "034_ui",
+  "category": "ui",
+  "scale": 2,
+  "font": "Noto Sans",
+  "size": 13,
+  "layout": "bar"
+ },
+ {
+  "id": "035_ui",
+  "category": "ui",
+  "scale": 1.5,
+  "font": "DejaVu Sans",
+  "size": 13,
+  "layout": "bar"
+ },
+ {
+  "id": "036_ui",
+  "category": "ui",
+  "scale": 1.25,
+  "font": "Noto Sans",
+  "size": 15,
+  "layout": "grid"
+ },
+ {
+  "id": "037_ui",
+  "category": "ui",
+  "scale": 1.25,
+  "font": "DejaVu Sans",
+  "size": 15,
+  "layout": "list"
+ },
+ {
+  "id": "038_ui",
+  "category": "ui",
+  "scale": 1.5,
+  "font": "Liberation Sans",
+  "size": 13,
+  "layout": "grid"
+ },
+ {
+  "id": "039_small_text",
+  "category": "small_text",
+  "scale": 1.25,
+  "font": "Liberation Mono",
+  "size": 10
+ },
+ {
+  "id": "040_small_text",
+  "category": "small_text",
+  "scale": 1.25,
+  "font": "DejaVu Sans",
+  "size": 9
+ },
+ {
+  "id": "041_small_text",
+  "category": "small_text",
+  "scale": 1.25,
+  "font": "iA Writer Mono S",
+  "size": 11
+ },
+ {
+  "id": "042_small_text",
+  "category": "small_text",
+  "scale": 1.25,
+  "font": "DejaVu Sans",
+  "size": 11
+ },
+ {
+  "id": "043_small_text",
+  "category": "small_text",
+  "scale": 2,
+  "font": "Adwaita Sans",
+  "size": 11
+ },
+ {
+  "id": "044_small_text",
+  "category": "small_text",
+  "scale": 1.25,
+  "font": "DejaVu Sans",
+  "size": 10
+ },
+ {
+  "id": "045_small_text",
+  "category": "small_text",
+  "scale": 1,
+  "font": "Nimbus Sans",
+  "size": 11
+ },
+ {
+  "id": "046_small_text",
+  "category": "small_text",
+  "scale": 1,
+  "font": "Liberation Sans",
+  "size": 9
+ },
+ {
+  "id": "047_low_contrast",
+  "category": "low_contrast",
+  "scale": 1.25,
+  "font": "Adwaita Sans",
+  "size": 15,
+  "fg": "#565f89"
+ },
+ {
+  "id": "048_low_contrast",
+  "category": "low_contrast",
+  "scale": 1,
+  "font": "Nimbus Sans",
+  "size": 15,
+  "fg": "#6c7086"
+ },
+ {
+  "id": "049_low_contrast",
+  "category": "low_contrast",
+  "scale": 1.25,
+  "font": "Liberation Sans",
+  "size": 13,
+  "fg": "#859289"
+ },
+ {
+  "id": "050_low_contrast",
+  "category": "low_contrast",
+  "scale": 1.25,
+  "font": "Nimbus Sans",
+  "size": 15,
+  "fg": "#7a7a7a"
+ },
+ {
+  "id": "051_low_contrast",
+  "category": "low_contrast",
+  "scale": 1.25,
+  "font": "Adwaita Sans",
+  "size": 14,
+  "fg": "#928374"
+ },
+ {
+  "id": "052_low_contrast",
+  "category": "low_contrast",
+  "scale": 1.5,
+  "font": "Nimbus Sans",
+  "size": 13,
+  "fg": "#4c566a"
+ },
+ {
+  "id": "053_low_contrast",
+  "category": "low_contrast",
+  "scale": 1.5,
+  "font": "Nimbus Sans",
+  "size": 14,
+  "fg": "#8c8fa1"
+ },
+ {
+  "id": "054_low_contrast",
+  "category": "low_contrast",
+  "scale": 1.25,
+  "font": "Liberation Sans",
+  "size": 13,
+  "fg": "#7a7a7a"
+ },
+ {
+  "id": "055_table",
+  "category": "table",
+  "scale": 1,
+  "font": "DejaVu Sans",
+  "size": 15
+ },
+ {
+  "id": "056_table",
+  "category": "table",
+  "scale": 1.5,
+  "font": "Adwaita Mono",
+  "size": 13
+ },
+ {
+  "id": "057_table",
+  "category": "table",
+  "scale": 1,
+  "font": "DejaVu Sans Mono",
+  "size": 15
+ },
+ {
+  "id": "058_table",
+  "category": "table",
+  "scale": 1.25,
+  "font": "iA Writer Mono S",
+  "size": 15
+ },
+ {
+  "id": "059_table",
+  "category": "table",
+  "scale": 1.5,
+  "font": "Liberation Sans",
+  "size": 13
+ },
+ {
+  "id": "060_table",
+  "category": "table",
+  "scale": 1.25,
+  "font": "iA Writer Mono S",
+  "size": 15
+ },
+ {
+  "id": "061_table",
+  "category": "table",
+  "scale": 1,
+  "font": "iA Writer Mono S",
+  "size": 14
+ },
+ {
+  "id": "062_table",
+  "category": "table",
+  "scale": 1.25,
+  "font": "Nimbus Sans",
+  "size": 15
+ },
+ {
+  "id": "063_identifiers",
+  "category": "identifiers",
+  "scale": 1.25,
+  "font": "Adwaita Mono",
+  "size": 15
+ },
+ {
+  "id": "064_identifiers",
+  "category": "identifiers",
+  "scale": 1.25,
+  "font": "Liberation Mono",
+  "size": 14
+ },
+ {
+  "id": "065_identifiers",
+  "category": "identifiers",
+  "scale": 1,
+  "font": "Liberation Sans",
+  "size": 13
+ },
+ {
+  "id": "066_identifiers",
+  "category": "identifiers",
+  "scale": 2,
+  "font": "Liberation Mono",
+  "size": 13
+ },
+ {
+  "id": "067_identifiers",
+  "category": "identifiers",
+  "scale": 1.25,
+  "font": "Liberation Mono",
+  "size": 15
+ },
+ {
+  "id": "068_identifiers",
+  "category": "identifiers",
+  "scale": 2,
+  "font": "JetBrainsMono Nerd Font",
+  "size": 14
+ },
+ {
+  "id": "069_identifiers",
+  "category": "identifiers",
+  "scale": 1.25,
+  "font": "Adwaita Sans",
+  "size": 14
+ },
+ {
+  "id": "070_identifiers",
+  "category": "identifiers",
+  "scale": 1,
+  "font": "Nimbus Sans",
+  "size": 13
+ },
+ {
+  "id": "071_identifiers",
+  "category": "identifiers",
+  "scale": 1,
+  "font": "iA Writer Mono S",
+  "size": 15
+ },
+ {
+  "id": "072_identifiers",
+  "category": "identifiers",
+  "scale": 2,
+  "font": "Adwaita Mono",
+  "size": 15
+ },
+ {
+  "id": "073_numbers",
+  "category": "numbers",
+  "scale": 1.25,
+  "font": "Noto Sans",
+  "size": 14
+ },
+ {
+  "id": "074_numbers",
+  "category": "numbers",
+  "scale": 1,
+  "font": "iA Writer Mono S",
+  "size": 16
+ },
+ {
+  "id": "075_numbers",
+  "category": "numbers",
+  "scale": 1,
+  "font": "DejaVu Serif",
+  "size": 15
+ },
+ {
+  "id": "076_numbers",
+  "category": "numbers",
+  "scale": 2,
+  "font": "Noto Sans",
+  "size": 13
+ },
+ {
+  "id": "077_numbers",
+  "category": "numbers",
+  "scale": 1.25,
+  "font": "DejaVu Sans Mono",
+  "size": 14
+ },
+ {
+  "id": "078_numbers",
+  "category": "numbers",
+  "scale": 1.25,
+  "font": "iA Writer Mono S",
+  "size": 16
+ },
+ {
+  "id": "079_numbers",
+  "category": "numbers",
+  "scale": 1,
+  "font": "JetBrainsMono Nerd Font",
+  "size": 16
+ },
+ {
+  "id": "080_numbers",
+  "category": "numbers",
+  "scale": 2,
+  "font": "Adwaita Mono",
+  "size": 15
+ },
+ {
+  "id": "081_accented",
+  "category": "accented",
+  "scale": 2,
+  "font": "DejaVu Sans",
+  "size": 15
+ },
+ {
+  "id": "082_accented",
+  "category": "accented",
+  "scale": 1,
+  "font": "Nimbus Sans",
+  "size": 16
+ },
+ {
+  "id": "083_accented",
+  "category": "accented",
+  "scale": 1.25,
+  "font": "Noto Sans",
+  "size": 14
+ },
+ {
+  "id": "084_accented",
+  "category": "accented",
+  "scale": 1,
+  "font": "Nimbus Roman",
+  "size": 15
+ },
+ {
+  "id": "085_accented",
+  "category": "accented",
+  "scale": 1,
+  "font": "DejaVu Sans",
+  "size": 14
+ },
+ {
+  "id": "086_accented",
+  "category": "accented",
+  "scale": 1.25,
+  "font": "Liberation Sans",
+  "size": 14
+ },
+ {
+  "id": "087_accented",
+  "category": "accented",
+  "scale": 1.25,
+  "font": "DejaVu Serif",
+  "size": 14
+ },
+ {
+  "id": "088_accented",
+  "category": "accented",
+  "scale": 1.25,
+  "font": "Nimbus Sans",
+  "size": 16
+ },
+ {
+  "id": "089_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1.25,
+  "font": "Nimbus Sans",
+  "size": "13-30"
+ },
+ {
+  "id": "090_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1,
+  "font": "Nimbus Sans",
+  "size": "13-30"
+ },
+ {
+  "id": "091_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1,
+  "font": "DejaVu Serif",
+  "size": "13-30"
+ },
+ {
+  "id": "092_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1.25,
+  "font": "Nimbus Sans",
+  "size": "13-30"
+ },
+ {
+  "id": "093_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1,
+  "font": "Liberation Sans",
+  "size": "13-30"
+ },
+ {
+  "id": "094_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1.5,
+  "font": "Noto Sans",
+  "size": "13-30"
+ },
+ {
+  "id": "095_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1,
+  "font": "Liberation Sans",
+  "size": "13-30"
+ },
+ {
+  "id": "096_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1.25,
+  "font": "DejaVu Sans",
+  "size": "13-30"
+ },
+ {
+  "id": "097_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1.25,
+  "font": "DejaVu Serif",
+  "size": "13-30"
+ },
+ {
+  "id": "098_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1.25,
+  "font": "Liberation Sans",
+  "size": "13-30"
+ },
+ {
+  "id": "099_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1.25,
+  "font": "Nimbus Sans",
+  "size": "13-30"
+ },
+ {
+  "id": "100_mixed_styles",
+  "category": "mixed_styles",
+  "scale": 1.25,
+  "font": "Liberation Serif",
+  "size": "13-30"
+ }
+]

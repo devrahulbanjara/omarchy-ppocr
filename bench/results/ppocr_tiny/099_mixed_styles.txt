@@ -1,0 +1,5 @@
+Getting Started
+Version 3.1 - October 2024
+The quick brown fox jumps over the lazy dog near the riverbank.
+The archive contains 1,284 photos taken between 2019 and 2024.
+Write the test first, watch it fail, then make it pass with the simplest code

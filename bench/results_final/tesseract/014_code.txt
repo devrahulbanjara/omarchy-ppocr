@@ -1,0 +1,7 @@
+class Stack:
+def __init_ (self):
+self. items = []
+def push(self, item):
+self. _items.append(item)
+def pop(self):
+return self. _items.pop() if self._items else None

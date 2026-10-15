@@ -1,0 +1,6 @@
+Invoice No. INV-2020-41757
+Date: 09/11/2025
+Amount due: $8,506.41
+Phone: +1 (306) 795-4034
+IBAN: DE75 2318 5550 9848 3891 37
+Version 1.6.55 (build 89728)

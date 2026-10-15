@@ -1,0 +1,98 @@
+{
+ "judged": 100,
+ "mean_usability_score": {
+  "ppocr": 4.55,
+  "tesseract": 3.49
+ },
+ "score_distribution": {
+  "ppocr": {
+   "2": 1,
+   "3": 13,
+   "4": 16,
+   "5": 70
+  },
+  "tesseract": {
+   "1": 3,
+   "2": 30,
+   "3": 18,
+   "4": 13,
+   "5": 36
+  }
+ },
+ "pairwise_preference": {
+  "ppocr": 61,
+  "tesseract": 8,
+  "tie": 31
+ },
+ "error_tags": {
+  "ppocr": {
+   "char_substitution": 10,
+   "missing_text": 8,
+   "missing_space": 6,
+   "wrong_punctuation": 5,
+   "case": 2,
+   "diacritics": 1,
+   "extra_space": 1,
+   "lost_indentation": 1
+  },
+  "tesseract": {
+   "char_substitution": 45,
+   "extra_text": 13,
+   "lost_indentation": 12,
+   "missing_text": 12,
+   "extra_space": 11,
+   "diacritics": 9,
+   "wrong_punctuation": 7,
+   "empty_output": 2,
+   "missing_space": 2,
+   "case": 2
+  }
+ },
+ "mean_score_by_category": {
+  "accented": {
+   "tesseract": 2,
+   "ppocr": 4.38
+  },
+  "code": {
+   "ppocr": 4.1,
+   "tesseract": 2.1
+  },
+  "identifiers": {
+   "tesseract": 2.4,
+   "ppocr": 4.2
+  },
+  "low_contrast": {
+   "tesseract": 4.75,
+   "ppocr": 5
+  },
+  "mixed_styles": {
+   "ppocr": 4.92,
+   "tesseract": 4.25
+  },
+  "numbers": {
+   "tesseract": 4.38,
+   "ppocr": 4.38
+  },
+  "prose": {
+   "tesseract": 4.75,
+   "ppocr": 5
+  },
+  "small_text": {
+   "tesseract": 3.62,
+   "ppocr": 5
+  },
+  "table": {
+   "tesseract": 3.88,
+   "ppocr": 4.5
+  },
+  "terminal": {
+   "tesseract": 3,
+   "ppocr": 3.7
+  },
+  "ui": {
+   "tesseract": 3.6,
+   "ppocr": 5
+  }
+ },
+ "missing": []
+}

@@ -1,0 +1,3 @@
+Search settings Keyboard
+Layout: US Repeat rate
+Caps Lock as Ctrl

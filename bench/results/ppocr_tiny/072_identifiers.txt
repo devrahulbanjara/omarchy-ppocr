@@ -1,0 +1,5 @@
+API_KEY=demo-4Q9512d013e1YaXYQf6X72e3
+/home/user/.config/bravo/alpha_49.toml
+https://github.com/bravo-alpha/pixel-3/pull/1244
+https://www.alpha-bravo.org/docs/v3/getting-started?ref=nav#install
+commit 3dcfd4a43ca8e4d035b0c2273ecfd564271dc27f
